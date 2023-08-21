@@ -4,11 +4,11 @@ import './NavBar.css'
 
 function NavBar() {
   return (
-    <nav className="navbar">
+    <nav className="flex justify-between p-4 bg-slate-700 mb-2">
       <Link href='/'>
         <h1>NavBar</h1>
       </Link>
-      <ul>
+      <ul className="flex space-x-4">
         <li>
           <Link href="/">Home</Link>
         </li>
